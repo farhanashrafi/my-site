@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>farhan site</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script> src="{{ url_for('static', filename='script.js') }}"</script>
+
+</head>
+<body>
+    <div class="container">
+     <h1>welcome to the farhan site(●'◡'●)</h1>
+     <p>download the free reader_writer</p>
+     <a class="download-btn" href="{{ url_for('download') }}"></a>
+    </div>
+</body>    
+<html>
